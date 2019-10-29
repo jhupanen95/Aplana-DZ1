@@ -4,7 +4,7 @@ public abstract class Sweetness {
     private double price;
     private double weight;
 
-    public Sweetness(String name, double price, double weight) {
+    Sweetness(String name, double price, double weight) {
         this.name = name;
         this.price = price;
         this.weight = weight;

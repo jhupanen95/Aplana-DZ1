@@ -1,5 +1,3 @@
-import java.net.CookieHandler;
-
 public class Main {
     public static void main(String[] args) {
         NewYearGift gift = new NewYearGift();
