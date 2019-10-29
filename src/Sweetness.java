@@ -20,10 +20,8 @@ public abstract class Sweetness {
 
     @Override
     public String toString() {
-        return "Sweetness{" +
-                "name='" + name + '\'' +
+        return  "name='" + name + '\'' +
                 ", price=" + price +
-                ", weight=" + weight +
-                '}';
+                ", weight=" + weight;
     }
 }

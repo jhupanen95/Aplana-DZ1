@@ -6,4 +6,11 @@ public class Jellybean extends Sweetness {
         super(name, price, weight);
         this.rigidity = rigidity;
     }
+
+    @Override
+    public String toString() {
+        return "Jellybean{" + super.toString() +
+                ", rigidity='" + rigidity + '\'' +
+                '}';
+    }
 }

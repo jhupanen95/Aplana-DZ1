@@ -5,4 +5,11 @@ public class Сookies extends Sweetness{
         super(name, price, weight);
         this.structure = structure;
     }
+
+    @Override
+    public String toString() {
+        return "Сookies{" + super.toString() +
+                ", structure='" + structure + '\'' +
+                '}';
+    }
 }
